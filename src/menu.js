@@ -3,9 +3,9 @@ const create = function(){
     let menucard = document.createElement('div');
     menucard.classList.add('card');
     menucard.style.width = "40%";
-    menucard.style.fontSize = "30px";
+    menucard.style.fontSize = "22px";
     menucard.style.textAlign = "justify";
-    menucard.style.lineHeight = "50px";
+    menucard.style.lineHeight = "30px";
     menucard.style.padding = "40px";
    menucard.innerHTML = `
   <div class="menu-item"><span>🍕 <strong>Pizza</strong></span><span>80 Rs</span></div>
