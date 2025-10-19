@@ -1,4 +1,4 @@
-import myimage from "../images/images.jpeg";
+import myimage from "../images/images2.jpg";
 const create = function(){
     //divs
     let landingdiv = document.createElement('div');
@@ -34,8 +34,8 @@ const create = function(){
     //image
     let image = document.createElement('img');
     image.src = myimage;
-    image.style.height = "400px";
-    image.style.width = "750px";
+    // image.style.height = "400px";
+    image.style.width = "650px";
     //structuring
     contentdiv.appendChild(image);
     contentdiv.appendChild(landingdiv);
