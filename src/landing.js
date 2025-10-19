@@ -34,7 +34,7 @@ const create = function(){
     //image
     let image = document.createElement('img');
     image.src = myimage;
-    image.style.height = "380px";
+    image.style.height = "350px";
     // image.style.width = "650px";
     //structuring
     contentdiv.appendChild(image);
