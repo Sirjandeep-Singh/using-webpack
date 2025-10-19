@@ -1,0 +1,68 @@
+body, :root{
+    margin: 0px;
+    background-color: #f5f7fa;
+}
+.bar{
+    background-color: #2f5d8a;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.landing{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 90px 10px;
+}
+.card{
+    background-color: #f2f2f2;
+    width: 280px;
+    border-radius: 30px 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    padding: 12px;
+}
+h1,p{
+    text-align: center;
+}
+.landingcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+.landingcontent > img{
+    align-self: center;
+}
+.menucontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+}
+.menu-item{
+    display: flex;
+    justify-content: space-between;
+}
+address{
+    text-align: left;
+    line-height: 32px;
+}
+button {
+    height: 32px;
+    font-size: 16px;
+    width: 70px;
+    border: none;
+    background-color: #25496b;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+
